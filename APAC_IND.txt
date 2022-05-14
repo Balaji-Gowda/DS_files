@@ -1,0 +1,23 @@
+1.create folder INDIA pricelist
+2.create FFP folder inside above folder
+3.place india FFP-MMYYY file inside FFP folder
+4.rename above file as IN_FFP_YYYYMM
+5.place xlsx price files only from CTP CLP folder
+6.delete CTP CLP folder
+7.create new folder MA_TC Sofon price files.
+8.copy india_2021_11_04 file from EMEA ,MA_TC Sofon price files folder and paste inside the above folder.
+9.rename static file as old month name.
+10.rename service file.
+11.rename all items file.
+12.delete model info file.
+13.rename commercial 3rd party file
+14.copy mag descripyion file 
+15.copy columns for short desc,long desc and checklist from allitems-> checklist sheet and delete old columns.
+16.inside FFP folder's file convert Material to variant(1st sheet),change sheet name to FFP(1st sheet).
+17.Delete E and F column and also check for headers match.
+18.inside  IND pricelist folder,open file and add Variant and CLP columns in between material and CTP cols and change sheet name to Sheet1.
+19.inside  APAC pricelist folder,open all files one by one and add Variant column in between material and CTP cols and change sheet name to Sheet1.
+
+
+20.for IND only copy india currency rate file from old month data and copy B col next to F col and header name should be Rate(MMM'YY).Update current rate value B col,second row withe value shared by T**** through mail at the begining of current month.
+
